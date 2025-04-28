@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TLV320AIC3204IRHBR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TLV320AIC3204IRHBR/TLV320AIC3204IRHBR.kicad_sym")(options "")(descr ""))
+)
