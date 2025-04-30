@@ -3,4 +3,5 @@
   (lib (name "TLV320AIC3204IRHBR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TLV320AIC3204IRHBR/TLV320AIC3204IRHBR.kicad_sym")(options "")(descr ""))
   (lib (name "HUSB238_002DD")(type "KiCad")(uri "${KIPRJMOD}/libraries/HUSB238_002DD/HUSB238_002DD.kicad_sym")(options "")(descr ""))
   (lib (name "AONR21307")(type "KiCad")(uri "${KIPRJMOD}/libraries/AONR21307/AONR21307.kicad_sym")(options "")(descr ""))
+  (lib (name "SHOUHAN_TYPE-C_16PIN_2MD__073")(type "KiCad")(uri "${KIPRJMOD}/libraries/SHOUHAN_TYPE-C_16PIN_2MD__073/SHOUHAN_TYPE-C_16PIN_2MD__073.kicad_sym")(options "")(descr ""))
 )

@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 9.652 0)
+			(at 0 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "HUSB238_002DD"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,6 +41,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PD Controller, Sink, USB C"
 			(at 0 0 0)
 			(effects
 				(font

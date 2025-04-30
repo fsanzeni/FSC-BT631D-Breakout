@@ -1679,15 +1679,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 9.652 0)
+				(at 0 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "HUSB238_002DD"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1713,6 +1713,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PD Controller, Sink, USB C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2548,6 +2557,16 @@
 			)
 		)
 		(uuid "2e4210d2-3ad6-4a1f-857d-959349f71d7f")
+	)
+	(text "TDK, VLS5045EX-100M"
+		(exclude_from_sim no)
+		(at 115.57 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c7600f7-f39f-4959-b10d-58237ddeb0b4")
 	)
 	(text "OPEN: 3.25A"
 		(exclude_from_sim no)
@@ -4559,6 +4578,100 @@
 		)
 	)
 	(symbol
+		(lib_id "HUSB238_002DD:HUSB238_002DD")
+		(at 93.98 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3afff78a-1c89-496f-b7a1-a1b4b99e0e4b")
+		(property "Reference" "U201"
+			(at 93.98 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HUSB238_002DD"
+			(at 93.98 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias"
+			(at 93.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9a835205-f896-4be6-9684-70af226f6deb")
+		)
+		(pin "3"
+			(uuid "d9cbaeff-3c68-4952-86ed-aa536178ffdb")
+		)
+		(pin "8"
+			(uuid "12d89da7-557f-4c6e-8d9d-3b4eaabeb4a3")
+		)
+		(pin "2"
+			(uuid "625030cd-62cb-4196-8a92-c6086afb4cf7")
+		)
+		(pin "9"
+			(uuid "960ffe3d-b341-499a-8115-34a396998e18")
+		)
+		(pin "7"
+			(uuid "36022fe3-5ce4-4588-a3a7-80ff3205f121")
+		)
+		(pin "11"
+			(uuid "5632f363-aa10-4eba-b856-271a809f165d")
+		)
+		(pin "1"
+			(uuid "3d44fe5d-66ce-496a-aeeb-34c670352932")
+		)
+		(pin "4"
+			(uuid "e30b6e64-80cf-4a61-8707-c11c315cd05d")
+		)
+		(pin "5"
+			(uuid "cface7c9-e813-49c0-8de5-bce3227cddab")
+		)
+		(pin "10"
+			(uuid "c0dc0fff-5640-402d-b645-3d699469c7ee")
+		)
+		(instances
+			(project ""
+				(path "/484c4955-80b8-457c-864e-1c65a3218727/bcad7757-d813-4960-9c64-164aa425f5cb"
+					(reference "U201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 64.77 0)
 		(unit 1)
@@ -4846,7 +4959,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "10uH"
 			(at 115.57 118.11 90)
 			(effects
 				(font
@@ -4854,7 +4967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "VLS5045EX-100M:VLS5045EX330M"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -5301,100 +5414,6 @@
 			(project "FSC-BT631D-Breakout"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727/bcad7757-d813-4960-9c64-164aa425f5cb"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HUSB238_002DD:HUSB238_002DD")
-		(at 93.98 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "785bcfc4-d308-449e-a5db-5902925593e7")
-		(property "Reference" "U201"
-			(at 93.98 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 93.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm"
-			(at 93.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "027b46ae-eb87-4854-b117-65251e5c9181")
-		)
-		(pin "11"
-			(uuid "b63e8a62-92f5-4925-bbef-62be70a1d09a")
-		)
-		(pin "8"
-			(uuid "597b0a80-86dc-42dd-b848-c46dbe76e210")
-		)
-		(pin "5"
-			(uuid "cf6944a4-7070-4882-8534-3b2b63e2730d")
-		)
-		(pin "2"
-			(uuid "41cf6a0d-78ec-40ca-92fc-500e8dcf700a")
-		)
-		(pin "1"
-			(uuid "5f91ae6b-d6c7-48f1-9a31-98bc6f19da03")
-		)
-		(pin "3"
-			(uuid "0dd9be32-2ea7-4d03-9735-1e6cec07af68")
-		)
-		(pin "10"
-			(uuid "88883a4f-3e23-4d1f-83b9-f24630c22bd5")
-		)
-		(pin "6"
-			(uuid "29a90f5e-4b7e-424e-9f29-484d6c07aa5c")
-		)
-		(pin "7"
-			(uuid "6c82d416-ca11-4c52-8a39-fa67c205b809")
-		)
-		(pin "9"
-			(uuid "14a16d2a-6a33-465a-a3a8-ac7079f19004")
-		)
-		(instances
-			(project ""
-				(path "/484c4955-80b8-457c-864e-1c65a3218727/bcad7757-d813-4960-9c64-164aa425f5cb"
-					(reference "U201")
 					(unit 1)
 				)
 			)

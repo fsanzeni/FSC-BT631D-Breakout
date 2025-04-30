@@ -3,4 +3,5 @@
   (lib (name "TLV320AIC3204IRHBR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TLV320AIC3204IRHBR")(options "")(descr ""))
   (lib (name "AONR21307")(type "KiCad")(uri "${KIPRJMOD}/libraries/AONR21307")(options "")(descr ""))
   (lib (name "SHOUHAN_TYPE-C_16PIN_2MD__073")(type "KiCad")(uri "${KIPRJMOD}/libraries/SHOUHAN_TYPE-C_16PIN_2MD__073")(options "")(descr ""))
+  (lib (name "VLS5045EX-100M")(type "KiCad")(uri "${KIPRJMOD}/libraries/VLS5045EX-100M")(options "")(descr ""))
 )
