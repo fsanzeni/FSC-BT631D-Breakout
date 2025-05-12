@@ -4,4 +4,7 @@
   (lib (name "AONR21307")(type "KiCad")(uri "${KIPRJMOD}/libraries/AONR21307")(options "")(descr ""))
   (lib (name "SHOUHAN_TYPE-C_16PIN_2MD__073")(type "KiCad")(uri "${KIPRJMOD}/libraries/SHOUHAN_TYPE-C_16PIN_2MD__073")(options "")(descr ""))
   (lib (name "VLS5045EX-100M")(type "KiCad")(uri "${KIPRJMOD}/libraries/VLS5045EX-100M")(options "")(descr ""))
+  (lib (name "FSC-BT631D")(type "KiCad")(uri "${KIPRJMOD}/libraries/FSC-BT631D/FSC-BT631D.pretty")(options "")(descr ""))
+  (lib (name "XKB_PJ-3200")(type "KiCad")(uri "${KIPRJMOD}/libraries/XKB_PJ-3200/XKB_PJ-3200.pretty")(options "")(descr ""))
+  (lib (name "KH-MICRO5P-JN")(type "KiCad")(uri "${KIPRJMOD}/libraries/KH-MICRO5P-JN/KH-MICRO5P-JN.pretty")(options "")(descr ""))
 )
