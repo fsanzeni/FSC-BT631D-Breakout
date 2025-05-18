@@ -1898,7 +1898,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at -3.322 0 0)
+			(at -3.068 0 0)
 			(layer "F.SilkS")
 			(uuid "6846a550-cd7f-4120-accf-a5edb0d576c0")
 			(effects
@@ -21457,6 +21457,22 @@
 		)
 	)
 	(segment
+		(start 147.447 99.187)
+		(end 147.32 99.06)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "20ccd9b9-9344-496b-b046-8b6b062e81e3")
+	)
+	(segment
+		(start 146.07 97.79)
+		(end 146.07 97.81)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "28928742-e78c-4323-b1ec-38ce61404dc4")
+	)
+	(segment
 		(start 147.32 99.06)
 		(end 147.07 98.81)
 		(width 0.2)
@@ -21481,6 +21497,14 @@
 		(uuid "54c05e41-6445-4292-a832-2b7395892fa6")
 	)
 	(segment
+		(start 146.05 100.33)
+		(end 147.32 99.06)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "63c105c4-a11e-436c-b3bd-8cd5b92b8a01")
+	)
+	(segment
 		(start 149.77 99.31)
 		(end 147.57 99.31)
 		(width 0.2)
@@ -21498,7 +21522,7 @@
 	)
 	(segment
 		(start 145.596 100.784)
-		(end 147.32 99.06)
+		(end 146.05 100.33)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -21511,6 +21535,22 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "757e10d8-0a6f-4a11-bc7e-1324fee9d0f7")
+	)
+	(segment
+		(start 146.05 98.81)
+		(end 144.87 98.81)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "9563ea9f-2448-4db2-92bf-0dce06f8a1ce")
+	)
+	(segment
+		(start 146.812 98.81)
+		(end 146.05 98.81)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "af2b5ffa-5385-49cc-bf7f-2cc41ca9e937")
 	)
 	(segment
 		(start 107.32 118.46)
@@ -21570,7 +21610,7 @@
 	)
 	(segment
 		(start 147.57 99.31)
-		(end 147.32 99.06)
+		(end 147.447 99.187)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -21578,7 +21618,7 @@
 	)
 	(segment
 		(start 146.07 96.61)
-		(end 146.07 97.81)
+		(end 146.07 97.79)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -21586,7 +21626,7 @@
 	)
 	(segment
 		(start 147.07 98.81)
-		(end 144.87 98.81)
+		(end 146.812 98.81)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -21599,6 +21639,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "f9b856ef-2ed3-4e94-b26e-7f43a72d42e2")
+	)
+	(via
+		(at 147.447 99.187)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "003eccf1-b27d-4b46-b741-c9f69d0e825f")
 	)
 	(via
 		(at 124.46 57.404)
@@ -21743,6 +21791,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "4cb7366d-af06-4445-afd9-199a4367f13b")
+	)
+	(via
+		(at 146.05 100.33)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "4f433c71-fa4b-476b-a2cf-3eaaad7d229a")
 	)
 	(via
 		(at 110.47 93.98)
@@ -21961,6 +22017,22 @@
 		(uuid "95d4d1a0-7ec1-4138-afea-9d265c28a4bc")
 	)
 	(via
+		(at 146.812 98.81)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "9bebfab3-834e-4e75-bf22-f3087cfe9bb0")
+	)
+	(via
+		(at 146.05 98.81)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "a5f4b887-5c8c-4be9-b64a-07895160b256")
+	)
+	(via
 		(at 121.392 107.95)
 		(size 0.6)
 		(drill 0.3)
@@ -22079,6 +22151,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "d522fff5-ad61-481a-9581-c6b48c3b75cc")
+	)
+	(via
+		(at 146.07 97.79)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "d7ea2a8b-b435-44f6-a0bb-c6cfa9c43ec8")
 	)
 	(via
 		(at 119.106 105.41)
