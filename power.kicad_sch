@@ -6748,7 +6748,7 @@
 		(dnp no)
 		(uuid "6d8cff44-8f1f-42b7-b9f0-cc7c12850a55")
 		(property "Reference" "J2"
-			(at 145.034 110.998 90)
+			(at 146.05 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,13 +6756,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "J"
-			(at 146.812 113.03 90)
+		(property "Value" "M_EN"
+			(at 147.32 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"

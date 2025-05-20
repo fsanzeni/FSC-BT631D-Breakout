@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 132.08 107.95)
-		(size 12.7 3.81)
+		(at 102.87 63.5)
+		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "997ce102-fb88-40aa-aa88-8276fee4bd02")
 		(property "Sheetname" "module"
-			(at 132.08 107.2384 0)
+			(at 102.87 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "module.kicad_sch"
-			(at 132.08 112.3446 0)
+			(at 102.87 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +49,7 @@
 	)
 	(sheet
 		(at 58.42 63.5)
-		(size 12.7 3.81)
+		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 58.42 67.8946 0)
+			(at 58.42 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 82.55 106.68)
-		(size 12.7 3.81)
+		(at 80.01 63.5)
+		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "ced8c403-ba0b-4a5a-a456-f2bd5f7703a3")
 		(property "Sheetname" "codec"
-			(at 82.55 105.9684 0)
+			(at 80.01 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "codec.kicad_sch"
-			(at 82.55 111.0746 0)
+			(at 80.01 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
