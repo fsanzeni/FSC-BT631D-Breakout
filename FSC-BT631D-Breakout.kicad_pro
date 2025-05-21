@@ -641,6 +641,10 @@
     [
       "997ce102-fb88-40aa-aa88-8276fee4bd02",
       "module"
+    ],
+    [
+      "8996c219-c1ac-4183-83a9-3ce663da6e45",
+      "DSP"
     ]
   ],
   "text_variables": {}

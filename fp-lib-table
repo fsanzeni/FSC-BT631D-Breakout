@@ -7,4 +7,5 @@
   (lib (name "FSC-BT631D")(type "KiCad")(uri "${KIPRJMOD}/libraries/FSC-BT631D/FSC-BT631D.pretty")(options "")(descr ""))
   (lib (name "XKB_PJ-3200")(type "KiCad")(uri "${KIPRJMOD}/libraries/XKB_PJ-3200/XKB_PJ-3200.pretty")(options "")(descr ""))
   (lib (name "KH-MICRO5P-JN")(type "KiCad")(uri "${KIPRJMOD}/libraries/KH-MICRO5P-JN/KH-MICRO5P-JN.pretty")(options "")(descr ""))
+  (lib (name "TS3425BA")(type "KiCad")(uri "${KIPRJMOD}/libraries/TS3425BA/TS3425BA.pretty")(options "")(descr ""))
 )
