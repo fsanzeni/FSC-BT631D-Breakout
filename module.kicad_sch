@@ -7670,7 +7670,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c528c9ca-b328-4ea9-a3be-ffa63679219e")
 		(property "Reference" "AE1"
@@ -7691,7 +7691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 152.4 57.15 0)
 			(effects
 				(font
