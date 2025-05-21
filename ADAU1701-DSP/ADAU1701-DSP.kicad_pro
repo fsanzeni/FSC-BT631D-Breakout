@@ -467,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FSC-BT631D-Breakout.kicad_pro",
+    "filename": "ADAU1701-DSP.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -629,22 +629,6 @@
     [
       "484c4955-80b8-457c-864e-1c65a3218727",
       "Root"
-    ],
-    [
-      "bcad7757-d813-4960-9c64-164aa425f5cb",
-      "power"
-    ],
-    [
-      "ced8c403-ba0b-4a5a-a456-f2bd5f7703a3",
-      "codec"
-    ],
-    [
-      "997ce102-fb88-40aa-aa88-8276fee4bd02",
-      "module"
-    ],
-    [
-      "8996c219-c1ac-4183-83a9-3ce663da6e45",
-      "DSP"
     ]
   ],
   "text_variables": {}

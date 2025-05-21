@@ -6,48 +6,6 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 125.73 63.5)
-		(size 16.51 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8996c219-c1ac-4183-83a9-3ce663da6e45")
-		(property "Sheetname" "DSP"
-			(at 125.73 62.7884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "dsp.kicad_sch"
-			(at 125.73 76.7846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FSC-BT631D-Breakout"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 102.87 63.5)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
