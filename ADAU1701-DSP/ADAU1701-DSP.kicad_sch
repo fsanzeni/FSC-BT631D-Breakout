@@ -112,177 +112,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2_Ground"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2_Ground"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_Ground_0_1"
-				(rectangle
-					(start -2.54 -2.54)
-					(end -3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_Ground_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -596,7 +425,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic:Conn_01x15"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -605,15 +434,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x15"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -638,7 +467,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -665,10 +494,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x15_1_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 19.05)
+					(end 1.27 -19.05)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -678,8 +507,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 17.907)
+					(end 0 17.653)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -689,8 +518,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 15.367)
+					(end 0 15.113)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -700,8 +529,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 12.827)
+					(end 0 12.573)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -711,199 +540,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 10.287)
+					(end 0 10.033)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x07_Odd_Even"
-				(at 1.27 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x07_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 3.81 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(rectangle
@@ -984,8 +628,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
+					(start -1.27 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -995,8 +639,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
+					(start -1.27 -12.573)
+					(end 0 -12.827)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1006,8 +650,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start -1.27 -15.113)
+					(end 0 -15.367)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1017,41 +661,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
+					(start -1.27 -17.653)
+					(end 0 -17.907)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1061,7 +672,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1079,7 +690,25 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 15.24 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1097,7 +726,25 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1115,7 +762,25 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1125,6 +790,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1153,114 +836,6 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
 					(name "Pin_10"
 						(effects
 							(font
@@ -1277,7 +852,25 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1295,7 +888,25 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1305,6 +916,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3651,131 +3280,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 88.9 112.776)
@@ -4032,12 +3536,6 @@
 		(uuid "0ca2ca21-f8dc-4fd4-a2f9-68219d244f65")
 	)
 	(junction
-		(at 262.89 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e53bd23-d57e-4d20-a3ab-03e4bd985091")
-	)
-	(junction
 		(at 181.61 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4066,12 +3564,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cbe01f6-f67c-4621-88f8-9a06898e5878")
-	)
-	(junction
-		(at 201.93 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ee4c4e6-6355-4296-82d0-6b1fb20d8b7e")
 	)
 	(junction
 		(at 97.79 66.04)
@@ -4182,12 +3674,6 @@
 		(uuid "56b11130-17b5-4c1d-989b-88bedff2cd26")
 	)
 	(junction
-		(at 201.93 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "609bd631-b340-4f01-89e3-9aa14c2976bf")
-	)
-	(junction
 		(at 113.03 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4260,6 +3746,12 @@
 		(uuid "8b5139cf-0ee5-4e45-b1c7-4496d50e49cb")
 	)
 	(junction
+		(at 113.03 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c7e6f9d-2ac3-43a4-ac78-16baa5c4c6e2")
+	)
+	(junction
 		(at 233.68 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4272,16 +3764,22 @@
 		(uuid "9171afe0-7ffa-430f-9228-986fa09a585b")
 	)
 	(junction
-		(at 262.89 128.27)
+		(at 113.03 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93d83673-4db0-45d9-89dc-35cfcf3e76d1")
+		(uuid "9310350a-6c5a-4333-9658-bdf0f0d986da")
 	)
 	(junction
 		(at 53.34 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97af9174-e5fa-4083-8ccc-10f3f050929f")
+	)
+	(junction
+		(at 113.03 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99df51fc-a2e0-46b0-977e-e32bd4864f9a")
 	)
 	(junction
 		(at 102.87 135.89)
@@ -4296,10 +3794,22 @@
 		(uuid "a16cb236-17ab-4cc5-a330-22f357b571aa")
 	)
 	(junction
+		(at 113.03 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a17f2c22-0600-47e5-aacd-6442c7c946b9")
+	)
+	(junction
 		(at 44.45 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7fffce1-2b84-4c49-81ac-30a431abd541")
+	)
+	(junction
+		(at 113.03 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aae3b4c8-caa4-418b-88f8-5a2bf890a3e4")
 	)
 	(junction
 		(at 53.34 43.18)
@@ -4387,16 +3897,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 132.08) (xy 152.4 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a1df02-a99f-4238-89d9-35557562fc84")
-	)
-	(wire
-		(pts
 			(xy 44.45 57.15) (xy 44.45 67.31)
 		)
 		(stroke
@@ -4457,6 +3957,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 267.97) (xy 114.3 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089ceeb1-b1a2-4f14-ab07-b2477601e868")
+	)
+	(wire
+		(pts
 			(xy 53.34 138.43) (xy 55.88 138.43)
 		)
 		(stroke
@@ -4467,16 +3977,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 129.54) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb19db3-ca39-4c10-8515-7badaa320f7f")
-	)
-	(wire
-		(pts
 			(xy 275.59 80.01) (xy 266.7 80.01)
 		)
 		(stroke
@@ -4484,6 +3984,16 @@
 			(type default)
 		)
 		(uuid "10892e5c-a134-45ca-ba90-564918d6bd3d")
+	)
+	(wire
+		(pts
+			(xy 123.19 285.75) (xy 114.3 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12966142-a97e-48c1-a5fa-b1f844f11253")
 	)
 	(wire
 		(pts
@@ -4577,16 +4087,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 118.11) (xy 201.93 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19d2f33e-5965-4d0e-a379-366dabc86b60")
-	)
-	(wire
-		(pts
 			(xy 76.2 114.3) (xy 85.09 114.3)
 		)
 		(stroke
@@ -4594,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "1a3b4568-4f61-4baa-b49d-bbb2d1ac02b3")
+	)
+	(wire
+		(pts
+			(xy 123.19 273.05) (xy 114.3 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a48740a-68d5-42c0-a1b9-0a9426a8a861")
 	)
 	(wire
 		(pts
@@ -4647,6 +4157,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 241.3) (xy 114.3 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbf9402-19c4-4675-8160-32fda267efce")
+	)
+	(wire
+		(pts
 			(xy 44.45 175.26) (xy 64.77 175.26)
 		)
 		(stroke
@@ -4697,6 +4217,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 288.29) (xy 123.19 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7f616b-ffc2-4961-95c3-e91a9af57fa5")
+	)
+	(wire
+		(pts
 			(xy 76.2 116.84) (xy 85.09 116.84)
 		)
 		(stroke
@@ -4714,6 +4244,16 @@
 			(type default)
 		)
 		(uuid "2f41533a-7ae0-4735-925e-e278f47a1190")
+	)
+	(wire
+		(pts
+			(xy 123.19 270.51) (xy 114.3 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb9247c-f651-463c-9595-a49cae9d2397")
 	)
 	(wire
 		(pts
@@ -4747,6 +4287,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 218.44) (xy 123.19 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b8bded-3b37-484b-8222-49492a83eadd")
+	)
+	(wire
+		(pts
 			(xy 109.22 72.39) (xy 109.22 73.66)
 		)
 		(stroke
@@ -4774,16 +4324,6 @@
 			(type default)
 		)
 		(uuid "3243e652-3580-4dfd-8e6a-83a8184ed077")
-	)
-	(wire
-		(pts
-			(xy 127 95.25) (xy 135.89 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3313b407-ec8e-4716-9d6f-ad6cebd9edea")
 	)
 	(wire
 		(pts
@@ -4827,16 +4367,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 115.57) (xy 262.89 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b4edcb-dbc6-40b5-81f9-6f6f7d799424")
-	)
-	(wire
-		(pts
 			(xy 262.89 128.27) (xy 262.89 133.35)
 		)
 		(stroke
@@ -4857,6 +4387,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 215.9) (xy 121.92 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382cd871-a5af-419e-97ba-a60045b38a14")
+	)
+	(wire
+		(pts
 			(xy 57.15 138.43) (xy 57.15 139.7)
 		)
 		(stroke
@@ -4874,16 +4414,6 @@
 			(type default)
 		)
 		(uuid "3bb4bf7a-8ab1-44b8-bdf3-9a0a15eaff27")
-	)
-	(wire
-		(pts
-			(xy 130.81 134.62) (xy 121.92 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be71bfb-1576-431d-8b3f-d694544ef798")
 	)
 	(wire
 		(pts
@@ -4937,16 +4467,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 144.78 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eec7790-d97a-4980-99a0-bffd64b3ffba")
-	)
-	(wire
-		(pts
 			(xy 97.79 66.04) (xy 97.79 67.31)
 		)
 		(stroke
@@ -4954,6 +4474,16 @@
 			(type default)
 		)
 		(uuid "40120ac5-8430-4961-8356-68dfdec699ff")
+	)
+	(wire
+		(pts
+			(xy 113.03 298.45) (xy 113.03 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404fdff9-e4f4-4039-b477-b035f63d4047")
 	)
 	(wire
 		(pts
@@ -5037,6 +4567,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 226.06) (xy 113.03 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487cf2a0-4caa-430b-b8aa-096e0eb5dddf")
+	)
+	(wire
+		(pts
 			(xy 134.62 36.83) (xy 134.62 38.1)
 		)
 		(stroke
@@ -5044,6 +4584,16 @@
 			(type default)
 		)
 		(uuid "4927876c-e9b3-4057-82da-6fc6bec5b7ae")
+	)
+	(wire
+		(pts
+			(xy 123.19 275.59) (xy 114.3 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49792795-925b-47ca-997b-e221ef28b44b")
 	)
 	(wire
 		(pts
@@ -5067,6 +4617,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 248.92) (xy 114.3 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b838538-824a-400c-b491-a7c2b6b9516f")
+	)
+	(wire
+		(pts
 			(xy 266.7 68.58) (xy 266.7 71.12)
 		)
 		(stroke
@@ -5087,6 +4647,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 295.91) (xy 113.03 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502556c1-01b8-425f-9849-5ec5004dab4a")
+	)
+	(wire
+		(pts
+			(xy 114.3 293.37) (xy 123.19 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a37298-763b-48ce-be7d-058cbdd554ea")
+	)
+	(wire
+		(pts
 			(xy 31.75 78.74) (xy 40.64 78.74)
 		)
 		(stroke
@@ -5094,16 +4674,6 @@
 			(type default)
 		)
 		(uuid "50b40069-d716-42de-ab38-0967024c90cc")
-	)
-	(wire
-		(pts
-			(xy 143.51 134.62) (xy 152.4 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c3d3c6-6e5b-4773-9e84-04ab1dc7f0cc")
 	)
 	(wire
 		(pts
@@ -5187,16 +4757,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 123.19) (xy 267.97 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b429cf1-3e66-4fdb-8a7a-d5213062dc56")
-	)
-	(wire
-		(pts
 			(xy 201.93 104.14) (xy 201.93 109.22)
 		)
 		(stroke
@@ -5227,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 238.76) (xy 113.03 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cad6109-485d-41f1-b2ec-f61a63f2e669")
+	)
+	(wire
+		(pts
 			(xy 45.72 46.99) (xy 44.45 46.99)
 		)
 		(stroke
@@ -5244,16 +4814,6 @@
 			(type default)
 		)
 		(uuid "5e583ce9-f4db-42c6-a5d0-50eafb3ee806")
-	)
-	(wire
-		(pts
-			(xy 127 90.17) (xy 135.89 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef42d52-10d8-4e14-be08-1db195a5999b")
 	)
 	(wire
 		(pts
@@ -5277,6 +4837,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 298.45) (xy 123.19 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fe5bca-faa8-45d6-887c-b51ab292b4ea")
+	)
+	(wire
+		(pts
 			(xy 109.22 67.31) (xy 109.22 66.04)
 		)
 		(stroke
@@ -5284,16 +4854,6 @@
 			(type default)
 		)
 		(uuid "62f777d0-d180-45e1-ba81-f7f59983edaf")
-	)
-	(wire
-		(pts
-			(xy 143.51 124.46) (xy 152.4 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6352426e-384c-416d-9659-193a7b77fa1f")
 	)
 	(wire
 		(pts
@@ -5324,6 +4884,36 @@
 			(type default)
 		)
 		(uuid "6915ebb1-c647-411c-98ee-7ec492da07c3")
+	)
+	(wire
+		(pts
+			(xy 123.19 278.13) (xy 114.3 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4d12be-0961-4761-9f42-13e2ed86657c")
+	)
+	(wire
+		(pts
+			(xy 123.19 226.06) (xy 113.03 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6422ce-5c69-4169-840f-cfd725245f09")
+	)
+	(wire
+		(pts
+			(xy 123.19 231.14) (xy 114.3 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad6da3a-2d7f-47b6-8914-b8233780766a")
 	)
 	(wire
 		(pts
@@ -5417,16 +5007,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 92.71) (xy 135.89 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7178bbb7-2b5e-444d-bb87-c36e1739404e")
-	)
-	(wire
-		(pts
 			(xy 31.75 96.52) (xy 40.64 96.52)
 		)
 		(stroke
@@ -5434,26 +5014,6 @@
 			(type default)
 		)
 		(uuid "71d2e1d5-adfd-436a-8bb4-2ef7e515fd70")
-	)
-	(wire
-		(pts
-			(xy 129.54 138.43) (xy 129.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f25718-0cb2-43aa-84b8-4fe339a901ba")
-	)
-	(wire
-		(pts
-			(xy 143.51 127) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "745cc9bc-85c8-42a3-b658-634550a81d03")
 	)
 	(wire
 		(pts
@@ -5497,16 +5057,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 121.92) (xy 152.4 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774e3836-173a-471e-9dbe-0c8f19ab636b")
-	)
-	(wire
-		(pts
 			(xy 97.79 72.39) (xy 97.79 73.66)
 		)
 		(stroke
@@ -5547,6 +5097,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 223.52) (xy 123.19 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e4dfd2-08c2-4a04-9d3d-6ebb94a6098e")
+	)
+	(wire
+		(pts
 			(xy 31.75 124.46) (xy 40.64 124.46)
 		)
 		(stroke
@@ -5554,16 +5114,6 @@
 			(type default)
 		)
 		(uuid "79fece6c-9646-43c2-a6dd-810be8189c69")
-	)
-	(wire
-		(pts
-			(xy 143.51 129.54) (xy 152.4 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2254dc-6143-467d-ba09-517d06785a75")
 	)
 	(wire
 		(pts
@@ -5597,16 +5147,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 127) (xy 121.92 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb2655b-6206-42db-814d-8a09d47beffb")
-	)
-	(wire
-		(pts
 			(xy 97.79 30.48) (xy 97.79 31.75)
 		)
 		(stroke
@@ -5614,6 +5154,16 @@
 			(type default)
 		)
 		(uuid "7fdbf4a4-8548-47e9-86a0-275a025124ba")
+	)
+	(wire
+		(pts
+			(xy 123.19 233.68) (xy 114.3 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b18eaf-c81d-40c6-8e42-3c5b40d575f7")
 	)
 	(wire
 		(pts
@@ -5634,16 +5184,6 @@
 			(type default)
 		)
 		(uuid "8223607e-dff0-45ac-9d04-abc36175a11c")
-	)
-	(wire
-		(pts
-			(xy 127 97.79) (xy 135.89 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8280cfe6-29e8-40f3-a1a9-45cd5ad0dcf4")
 	)
 	(wire
 		(pts
@@ -5684,16 +5224,6 @@
 			(type default)
 		)
 		(uuid "841ebad9-ac87-4dab-b7f8-088aa585727d")
-	)
-	(wire
-		(pts
-			(xy 207.01 123.19) (xy 207.01 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ac24e8-c79e-455e-b4b2-7d80826be9ca")
 	)
 	(wire
 		(pts
@@ -5754,6 +5284,16 @@
 			(type default)
 		)
 		(uuid "8a6aa6fb-a21e-49af-a7c9-c77f1406a082")
+	)
+	(wire
+		(pts
+			(xy 113.03 251.46) (xy 123.19 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b646a8a-ee91-4758-bc8d-c80310209390")
 	)
 	(wire
 		(pts
@@ -5847,6 +5387,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 290.83) (xy 113.03 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91588c4a-2c90-4280-8475-a915cadac341")
+	)
+	(wire
+		(pts
 			(xy 31.75 119.38) (xy 40.64 119.38)
 		)
 		(stroke
@@ -5904,16 +5454,6 @@
 			(type default)
 		)
 		(uuid "97f8418b-713e-465f-ad85-0d3f52457d0c")
-	)
-	(wire
-		(pts
-			(xy 134.62 101.6) (xy 134.62 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b63e21-c6db-4513-9f13-c55512018e81")
 	)
 	(wire
 		(pts
@@ -5997,16 +5537,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 115.57) (xy 201.93 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e00b5c8-71f7-46a5-8c1b-ed4096113530")
-	)
-	(wire
-		(pts
 			(xy 53.34 57.15) (xy 53.34 67.31)
 		)
 		(stroke
@@ -6014,16 +5544,6 @@
 			(type default)
 		)
 		(uuid "9e37a9fe-cf6a-43c2-9bfb-b73bc5919d4b")
-	)
-	(wire
-		(pts
-			(xy 175.26 45.72) (xy 175.26 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea601e3-ba89-41ae-b7c2-46c553fdca0a")
 	)
 	(wire
 		(pts
@@ -6044,6 +5564,16 @@
 			(type default)
 		)
 		(uuid "a1c57cd0-6478-4aa1-af35-1229d6595704")
+	)
+	(wire
+		(pts
+			(xy 113.03 265.43) (xy 123.19 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a216f14a-3bc6-4a1b-8fb4-dc7b0372499a")
 	)
 	(wire
 		(pts
@@ -6074,16 +5604,6 @@
 			(type default)
 		)
 		(uuid "a517b360-2439-4997-a128-f302c17373a9")
-	)
-	(wire
-		(pts
-			(xy 134.62 100.33) (xy 135.89 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52837b0-0f8e-4359-8606-e0e75132e598")
 	)
 	(wire
 		(pts
@@ -6167,6 +5687,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 243.84) (xy 114.3 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9db270-88a2-4c0b-ac79-59062d65df09")
+	)
+	(wire
+		(pts
 			(xy 97.79 73.66) (xy 97.79 74.93)
 		)
 		(stroke
@@ -6194,6 +5724,16 @@
 			(type default)
 		)
 		(uuid "ad7249cc-8cb9-4a41-93b8-17d84b72ad54")
+	)
+	(wire
+		(pts
+			(xy 114.3 220.98) (xy 123.19 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea12861-85c5-4c62-9561-bf6606cd41ed")
 	)
 	(wire
 		(pts
@@ -6277,16 +5817,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 118.11) (xy 262.89 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b743ce7f-7782-43b8-aa7b-1faf9f59bc3e")
-	)
-	(wire
-		(pts
 			(xy 55.88 137.16) (xy 55.88 138.43)
 		)
 		(stroke
@@ -6304,16 +5834,6 @@
 			(type default)
 		)
 		(uuid "bd3c5319-fac7-4800-b884-f2d4188e0fe8")
-	)
-	(wire
-		(pts
-			(xy 130.81 132.08) (xy 121.92 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb30da3-2300-447f-9591-0443112ee5fe")
 	)
 	(wire
 		(pts
@@ -6354,6 +5874,26 @@
 			(type default)
 		)
 		(uuid "bf3aa787-7ae2-46ae-a40e-1b19bbea0aa2")
+	)
+	(wire
+		(pts
+			(xy 113.03 251.46) (xy 113.03 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf84ca43-cd75-4e2a-b28b-49c8a7673b42")
+	)
+	(wire
+		(pts
+			(xy 113.03 295.91) (xy 123.19 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00bc014-0959-433c-868e-d001b18c40e0")
 	)
 	(wire
 		(pts
@@ -6457,6 +5997,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 290.83) (xy 123.19 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbad720c-e34f-4716-b016-38ba19124bee")
+	)
+	(wire
+		(pts
 			(xy 264.16 71.12) (xy 266.7 71.12)
 		)
 		(stroke
@@ -6464,6 +6014,16 @@
 			(type default)
 		)
 		(uuid "cbeb03d8-21a5-4742-be03-8153e1496693")
+	)
+	(wire
+		(pts
+			(xy 123.19 236.22) (xy 114.3 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfa2916-a42e-4295-b800-0d825b1df96d")
 	)
 	(wire
 		(pts
@@ -6477,6 +6037,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 283.21) (xy 114.3 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9d383e-f3ae-48e2-ba73-eb4ef2921b8c")
+	)
+	(wire
+		(pts
 			(xy 76.2 127) (xy 85.09 127)
 		)
 		(stroke
@@ -6484,6 +6054,16 @@
 			(type default)
 		)
 		(uuid "cd8eba63-4502-4479-8c2b-d94e90c8751d")
+	)
+	(wire
+		(pts
+			(xy 114.3 262.89) (xy 123.19 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9bb883-3aa0-4771-aeb9-5776777da254")
 	)
 	(wire
 		(pts
@@ -6534,6 +6114,16 @@
 			(type default)
 		)
 		(uuid "d174ae94-a720-4982-bbc4-51d42f0ec89c")
+	)
+	(wire
+		(pts
+			(xy 123.19 228.6) (xy 114.3 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c82e17-afea-45a9-86c2-25d576c42861")
 	)
 	(wire
 		(pts
@@ -6727,6 +6317,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 238.76) (xy 123.19 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0336dae-c70b-4f7d-b8cb-eaa8b65bbca8")
+	)
+	(wire
+		(pts
 			(xy 58.42 138.43) (xy 57.15 138.43)
 		)
 		(stroke
@@ -6747,13 +6347,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 121.92) (xy 121.92 121.92)
+			(xy 113.03 265.43) (xy 113.03 290.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5e6e6fb-dbb8-4341-869b-3187fd157c2c")
+		(uuid "e50f9149-5c52-4838-89dc-a8e5e04e6fc3")
 	)
 	(wire
 		(pts
@@ -6764,6 +6364,16 @@
 			(type default)
 		)
 		(uuid "e645745e-2273-45a9-b900-1078027638ff")
+	)
+	(wire
+		(pts
+			(xy 123.19 280.67) (xy 114.3 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6848cad-618e-4181-a8bd-dd65b3635f48")
 	)
 	(wire
 		(pts
@@ -6834,16 +6444,6 @@
 			(type default)
 		)
 		(uuid "ebcbadd9-1a12-498d-b36a-d350877fb42b")
-	)
-	(wire
-		(pts
-			(xy 143.51 137.16) (xy 144.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed1f05d1-1b57-4b20-a942-26786eb96592")
 	)
 	(wire
 		(pts
@@ -6977,6 +6577,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 246.38) (xy 114.3 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5681777-c828-499d-838f-eb0115d5e488")
+	)
+	(wire
+		(pts
 			(xy 201.93 48.26) (xy 212.09 48.26)
 		)
 		(stroke
@@ -6987,13 +6597,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 137.16) (xy 130.81 137.16)
+			(xy 123.19 215.9) (xy 121.92 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6349273-68d2-4b39-8e12-0a33b459b649")
+		(uuid "f82484c9-f74a-4b6a-a23d-8f8cb4624175")
 	)
 	(wire
 		(pts
@@ -7014,16 +6624,6 @@
 			(type default)
 		)
 		(uuid "fa4a8290-fec8-4ccf-9497-394816cc1a7c")
-	)
-	(wire
-		(pts
-			(xy 130.81 124.46) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0f443b-9c94-46e0-b746-21bbd519ab3f")
 	)
 	(wire
 		(pts
@@ -7095,15 +6695,25 @@
 		)
 		(uuid "0799d975-4b14-4047-91a4-d1dbc435afda")
 	)
-	(label "DSP_SCL"
-		(at 127 97.79 0)
+	(label "OUT2_L"
+		(at 114.3 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0916f436-e15c-49d3-bb19-b3261043c662")
+		(uuid "0b68e891-bc85-44a2-983d-5e4d0fa9f0fa")
+	)
+	(label "DSP_RST"
+		(at 114.3 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f9bd4a0-5f67-4ad2-9b7b-64dc597c67c6")
 	)
 	(label "MP6"
 		(at 85.09 114.3 180)
@@ -7114,16 +6724,6 @@
 			(justify right bottom)
 		)
 		(uuid "150e0713-cee5-4b2d-bc40-66654a84f215")
-	)
-	(label "DSP_SDA"
-		(at 127 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16942b9f-00bb-4d39-ad1b-0a0abafd81e8")
 	)
 	(label "VDRIVE"
 		(at 85.09 76.2 180)
@@ -7144,6 +6744,16 @@
 			(justify left bottom)
 		)
 		(uuid "18c3567b-7393-4251-b39f-c36caed21646")
+	)
+	(label "MP8"
+		(at 114.3 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a82d181-ed09-4262-8c39-7c24be9ef4ad")
 	)
 	(label "VOUT2"
 		(at 219.71 109.22 0)
@@ -7185,16 +6795,6 @@
 		)
 		(uuid "24211b65-0f21-4cc8-82c3-5070aa3c0c19")
 	)
-	(label "MP1"
-		(at 152.4 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26a06b1c-fc75-4f5f-843f-a4b48730f264")
-	)
 	(label "MP0"
 		(at 85.09 99.06 180)
 		(effects
@@ -7204,26 +6804,6 @@
 			(justify right bottom)
 		)
 		(uuid "276c3a52-6b6e-4711-80f3-52bcfa4cefa8")
-	)
-	(label "DSP_RST"
-		(at 127 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d5dda1d-2046-4e40-a886-e37d43e069dd")
-	)
-	(label "MP5"
-		(at 152.4 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2dfda4c2-62d8-4077-be3b-16116697dfaf")
 	)
 	(label "ADC_RES"
 		(at 31.75 83.82 0)
@@ -7245,16 +6825,6 @@
 		)
 		(uuid "345598c7-ea4e-4f8b-ba80-8b752bdb6807")
 	)
-	(label "MP6"
-		(at 121.92 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "358de9ce-782e-4430-a141-4db07d82c30b")
-	)
 	(label "PLL_LF"
 		(at 127 38.1 0)
 		(effects
@@ -7275,15 +6845,15 @@
 		)
 		(uuid "3a77392a-b433-41ec-8c26-80d5280154e7")
 	)
-	(label "MP3"
-		(at 152.4 129.54 180)
+	(label "OUT1_R"
+		(at 114.3 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3ac38a73-23eb-469d-b79f-d51d9e0d47ba")
+		(uuid "3a9099d5-092f-4c6c-be26-c0cbb9a1c4b8")
 	)
 	(label "VOUT1"
 		(at 158.75 128.27 0)
@@ -7295,16 +6865,6 @@
 		)
 		(uuid "3ae8f035-1d31-4d07-b43f-4e36c276c317")
 	)
-	(label "MP11"
-		(at 152.4 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "42d85143-1b01-47cf-9a63-d0eda8412afa")
-	)
 	(label "DSP_SCL"
 		(at 31.75 119.38 0)
 		(effects
@@ -7314,6 +6874,26 @@
 			(justify left bottom)
 		)
 		(uuid "47557940-f327-4654-9f02-0fa4ec834fb6")
+	)
+	(label "MP1"
+		(at 114.3 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a057ff0-bfca-4502-bf41-0bb2ff2e145e")
+	)
+	(label "MP9"
+		(at 114.3 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b51ed0b-df97-47f8-bab8-6cc60d202f98")
 	)
 	(label "VDRIVE"
 		(at 275.59 80.01 180)
@@ -7335,7 +6915,17 @@
 		)
 		(uuid "4bca5b56-dfea-4ba4-abbb-213be00981d2")
 	)
-	(label "OUT1_RIGHT"
+	(label "DSP_SCL"
+		(at 114.3 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d8e231b-6022-424d-b7e6-bc2e48c921ad")
+	)
+	(label "OUT1_R"
 		(at 195.58 109.22 180)
 		(effects
 			(font
@@ -7345,17 +6935,47 @@
 		)
 		(uuid "4dee5daa-509a-4844-9ae4-29b7e2f1e4df")
 	)
-	(label "MP9"
-		(at 152.4 132.08 180)
+	(label "DSP_SDA"
+		(at 114.3 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4ef19b43-cb5b-446e-af84-6365b28d6f7d")
+		(uuid "4e22a899-94fa-4c9b-819d-a39352b26385")
 	)
-	(label "OUT2_RIGHT"
+	(label "MP0"
+		(at 114.3 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eec576b-53b6-4b7f-9c2b-ebc67a604950")
+	)
+	(label "MP6"
+		(at 114.3 273.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54361fba-ac4c-491f-82e4-57173ecabfaa")
+	)
+	(label "OUT2_R"
+		(at 114.3 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "546e841c-7e17-4bcb-a730-d5ed236196ae")
+	)
+	(label "OUT2_R"
 		(at 256.54 109.22 180)
 		(effects
 			(font
@@ -7395,8 +7015,8 @@
 		)
 		(uuid "716ec310-230e-46d4-b399-1c13480c044f")
 	)
-	(label "DSP_IN_RIGHT"
-		(at 181.61 38.1 0)
+	(label "DSP_IN_R"
+		(at 180.34 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7445,16 +7065,6 @@
 		)
 		(uuid "7c6dde01-068a-48fa-97fb-2888df7c92b4")
 	)
-	(label "DSP_WP"
-		(at 127 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f1dc093-2a2a-4424-967e-b2d0713577a7")
-	)
 	(label "FILTA"
 		(at 91.44 30.48 0)
 		(effects
@@ -7475,6 +7085,16 @@
 		)
 		(uuid "853819ed-c304-44db-b7c8-b0fd465bf05f")
 	)
+	(label "MP10"
+		(at 114.3 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88dc1768-80b9-45a7-894d-fca709af2401")
+	)
 	(label "MP4"
 		(at 85.09 109.22 180)
 		(effects
@@ -7485,15 +7105,15 @@
 		)
 		(uuid "896482de-24e5-4587-9a25-bd48f5d6818c")
 	)
-	(label "MP2"
-		(at 121.92 129.54 0)
+	(label "DSP_IN_L"
+		(at 114.3 293.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8e10ba5c-e5a8-4e05-a42e-644459de415a")
+		(uuid "8cd9f4f9-3e55-46ce-bb3c-6220ec45a0c7")
 	)
 	(label "ADC1"
 		(at 31.75 78.74 0)
@@ -7525,6 +7145,16 @@
 		)
 		(uuid "959c8784-f91e-4792-9a1b-5b8f64923a95")
 	)
+	(label "OUT1_L"
+		(at 114.3 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d1a04dd-e3ff-45a4-9ccf-a82cb5f2b2ba")
+	)
 	(label "DVDD"
 		(at 60.96 62.23 270)
 		(effects
@@ -7535,18 +7165,8 @@
 		)
 		(uuid "a03ef512-7c55-4106-9424-a4b206c9c627")
 	)
-	(label "MP4"
-		(at 121.92 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1615600-680c-4d7f-b83a-ee05b749222c")
-	)
-	(label "DSP_IN_LEFT"
-		(at 181.61 40.64 0)
+	(label "DSP_IN_L"
+		(at 180.34 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7554,6 +7174,16 @@
 			(justify left bottom)
 		)
 		(uuid "a3391e3e-a726-4cb3-874b-4672c7facf72")
+	)
+	(label "MP5"
+		(at 114.3 283.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3f65e26-4f6d-442e-87a9-2ce1656c8240")
 	)
 	(label "MP8"
 		(at 85.09 119.38 180)
@@ -7565,15 +7195,25 @@
 		)
 		(uuid "ab152f50-1f01-4e7d-a9d9-c447d96ea692")
 	)
-	(label "MP0"
-		(at 121.92 124.46 0)
+	(label "DSP_WP"
+		(at 114.3 262.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "accd9fdd-9d57-4246-9c85-3e301d2a37e5")
+		(uuid "b66b5ecc-a529-495b-8927-929592fffcee")
+	)
+	(label "MP7"
+		(at 114.3 275.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7f953a0-5415-4634-873c-5b29e9c94ad1")
 	)
 	(label "DSP_RST"
 		(at 31.75 124.46 0)
@@ -7604,6 +7244,16 @@
 			(justify right bottom)
 		)
 		(uuid "c1c6b3b0-0b17-468e-a258-08614630088c")
+	)
+	(label "MP11"
+		(at 114.3 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c68b5ef4-95bd-4f71-b6ec-1349ba73dcd6")
 	)
 	(label "SBOOT"
 		(at 91.44 97.79 0)
@@ -7645,16 +7295,6 @@
 		)
 		(uuid "cca75d08-f738-4d60-b2ee-6c890d6a47c8")
 	)
-	(label "MP10"
-		(at 121.92 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd9ae8bc-c7a8-4254-bc33-74353d873b9c")
-	)
 	(label "DSP_SCL"
 		(at 53.34 175.26 180)
 		(effects
@@ -7685,15 +7325,15 @@
 		)
 		(uuid "d4626c0a-ab01-4572-b15e-d9f67dae799d")
 	)
-	(label "MP7"
-		(at 152.4 121.92 180)
+	(label "MP3"
+		(at 114.3 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e2694dd8-3b86-40f5-af74-6c0d7400f9aa")
+		(uuid "d89c2136-05b8-4170-9658-8a6d7a36bf28")
 	)
 	(label "OSCO"
 		(at 31.75 88.9 0)
@@ -7725,7 +7365,7 @@
 		)
 		(uuid "e625e840-7c5f-43cb-9e9c-9683eaf08202")
 	)
-	(label "OUT1_LEFT"
+	(label "OUT1_L"
 		(at 195.58 128.27 180)
 		(effects
 			(font
@@ -7765,7 +7405,7 @@
 		)
 		(uuid "f1c42813-fa9c-494c-9525-fd6e542f99c9")
 	)
-	(label "OUT2_LEFT"
+	(label "OUT2_L"
 		(at 256.54 128.27 180)
 		(effects
 			(font
@@ -7774,16 +7414,6 @@
 			(justify right bottom)
 		)
 		(uuid "f2503be6-046c-4898-89ac-69a09b29e1e3")
-	)
-	(label "MP8"
-		(at 121.92 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4a6a3d7-d91f-4ad1-b050-4171877535a7")
 	)
 	(label "MP9"
 		(at 85.09 121.92 180)
@@ -7795,6 +7425,26 @@
 		)
 		(uuid "f67eb157-d4d2-4496-a99f-d62439e9c741")
 	)
+	(label "DSP_IN_R"
+		(at 114.3 288.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8861caa-c39b-43b3-a099-9a4200648c10")
+	)
+	(label "MP2"
+		(at 114.3 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fac3a601-e497-4132-b5fb-f400749943a9")
+	)
 	(label "VOUT0"
 		(at 158.75 109.22 0)
 		(effects
@@ -7805,79 +7455,15 @@
 		)
 		(uuid "fcacd5af-5637-421b-94c8-9a04382dd765")
 	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground")
-		(at 207.01 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "042d6788-bcf5-44c6-94a1-13fdb38603d6")
-		(property "Reference" "J13"
-			(at 212.09 116.2049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	(label "MP4"
+		(at 114.3 285.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "OUT1"
-			(at 212.09 118.7449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "XKB_PJ-3200:XKB_PJ-3200"
-			(at 207.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-			(at 207.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "G"
-			(uuid "0eae561c-9bc8-4944-a333-16d44a3cf125")
-		)
-		(pin "S"
-			(uuid "096910bb-c11c-416c-add3-d265ae713d59")
-		)
-		(pin "T"
-			(uuid "accdbf78-74e8-46f5-89d7-b381981a4cb7")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ff2cf414-ee8b-434b-bd74-f2b055d0c738")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -7888,7 +7474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0470af3c-15a1-401f-bfd2-fbd719d5ba65")
-		(property "Reference" "R41"
+		(property "Reference" "R12"
 			(at 175.26 123.19 90)
 			(effects
 				(font
@@ -7940,73 +7526,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "072e5f8e-79dd-4aed-b2e0-2587f865e24a")
-		(property "Reference" "#PWR093"
-			(at 129.54 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80162445-d70f-4c69-9422-f11ff11c2702")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR093")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8022,7 +7542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b85058-cb62-494b-af9c-beff21da5812")
-		(property "Reference" "C36"
+		(property "Reference" "C12"
 			(at 148.59 45.7262 0)
 			(effects
 				(font
@@ -8076,7 +7596,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C36")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8091,7 +7611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09f080bc-b261-4df5-9694-b690064b60d2")
-		(property "Reference" "TP16"
+		(property "Reference" "TP1"
 			(at 175.768 72.39 90)
 			(effects
 				(font
@@ -8142,7 +7662,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "TP16")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8158,7 +7678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bd25554-c84f-4edd-be47-07f2ea0cbdfc")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR029"
 			(at 240.03 142.24 0)
 			(effects
 				(font
@@ -8208,7 +7728,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR077")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8224,7 +7744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f511dae-20ea-48d8-8e34-1cb654c222b3")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR04"
 			(at 97.79 45.72 0)
 			(effects
 				(font
@@ -8274,73 +7794,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 97.79 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1001d4e5-aa25-416e-915d-a4220d92ce8a")
-		(property "Reference" "#PWR080"
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_DSP"
-			(at 97.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 97.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd049dbb-d991-40f2-8c73-70a6b81f89a8")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR080")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8355,7 +7809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11d7f978-7ff4-4f8c-8065-01feac0212d4")
-		(property "Reference" "C25"
+		(property "Reference" "C7"
 			(at 224.7836 34.29 90)
 			(effects
 				(font
@@ -8407,78 +7861,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground")
-		(at 175.26 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13d27050-486f-4267-a904-01437902541a")
-		(property "Reference" "J11"
-			(at 174.625 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DSP IN"
-			(at 174.625 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XKB_PJ-3200:XKB_PJ-3200"
-			(at 175.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-			(at 175.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "G"
-			(uuid "dc6f8326-cfd6-447f-aba4-88841406a9a6")
-		)
-		(pin "S"
-			(uuid "83425022-5c03-4552-9dce-6079b9aa0d5b")
-		)
-		(pin "T"
-			(uuid "83afdb8e-3d44-4e21-bb11-19306f23a0f7")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "J11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8494,7 +7877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16b79c80-1db9-4d4e-9633-da19cead5c3f")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR08"
 			(at 201.93 55.88 0)
 			(effects
 				(font
@@ -8544,7 +7927,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR057")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8560,7 +7943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e4d7518-8c3f-4e61-90d0-115c220f9461")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR05"
 			(at 156.21 52.07 0)
 			(effects
 				(font
@@ -8610,7 +7993,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR071")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8626,7 +8009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e7dced6-695d-4333-8e9c-da358547ee6e")
-		(property "Reference" "C37"
+		(property "Reference" "C17"
 			(at 148.59 60.9662 0)
 			(effects
 				(font
@@ -8680,7 +8063,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C37")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8696,7 +8079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c24447-6ef0-4612-9301-24b5c0fd974a")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 175.26 65.405 0)
 			(effects
 				(font
@@ -8746,7 +8129,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8762,7 +8145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "269296de-9365-4170-b52b-7d1179e57d31")
-		(property "Reference" "C44"
+		(property "Reference" "C27"
 			(at 242.57 111.7662 0)
 			(effects
 				(font
@@ -8816,7 +8199,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C44")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8832,7 +8215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "275ddf03-3b69-422d-b6b6-21c23ccc50b4")
-		(property "Reference" "C33"
+		(property "Reference" "C20"
 			(at 111.76 68.5735 0)
 			(effects
 				(font
@@ -8886,7 +8269,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C33")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8902,7 +8285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a56136-9876-43b9-a8e0-6909baed0b2f")
-		(property "Reference" "R44"
+		(property "Reference" "R11"
 			(at 104.14 123.1899 0)
 			(effects
 				(font
@@ -8956,7 +8339,73 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R44")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2980d759-d917-42ba-ac1a-9028937f895b")
+		(property "Reference" "#PWR019"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d54afce-8bde-4bde-be44-974d62a20094")
+		)
+		(instances
+			(project "ADAU1701-DSP"
+				(path "/484c4955-80b8-457c-864e-1c65a3218727"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8972,7 +8421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29bcd002-1c5a-4f64-a73e-5b104a80ab3d")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR036"
 			(at 72.39 168.91 0)
 			(effects
 				(font
@@ -9022,73 +8471,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bb46d06-d3cb-4e57-aa25-4b0789fc3481")
-		(property "Reference" "#PWR054"
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26056e17-bd1b-4910-84a1-ef5a00dd9d8f")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR054")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9104,7 +8487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cfe9185-1d45-4b68-b9e2-ddd96cf4e67e")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR03"
 			(at 58.42 41.91 0)
 			(effects
 				(font
@@ -9154,7 +8537,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR090")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9170,7 +8553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3027c780-28ce-4660-9ffe-38a8eac9d2e6")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR020"
 			(at 24.13 104.14 0)
 			(effects
 				(font
@@ -9220,7 +8603,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR086")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9236,7 +8619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3323e566-df07-4257-83ba-d680c8755fe0")
-		(property "Reference" "C45"
+		(property "Reference" "C31"
 			(at 242.57 130.8162 0)
 			(effects
 				(font
@@ -9290,7 +8673,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C45")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -9306,7 +8689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33863783-eaaf-498f-972a-30cefa6ead48")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR014"
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -9356,7 +8739,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR084")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9372,7 +8755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "346f14c4-9bf6-457c-bf11-289bffddb572")
-		(property "Reference" "C32"
+		(property "Reference" "C19"
 			(at 100.33 68.5735 0)
 			(effects
 				(font
@@ -9426,7 +8809,73 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C32")
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3614053b-c04c-4f88-865d-db0b0a25de09")
+		(property "Reference" "#PWR041"
+			(at 113.03 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d2c2baf-ff55-4ac6-b80d-34d0902d9e68")
+		)
+		(instances
+			(project "ADAU1701-DSP"
+				(path "/484c4955-80b8-457c-864e-1c65a3218727"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9441,7 +8890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37b70aa0-72f9-45eb-b1bc-39f302d4ec17")
-		(property "Reference" "R40"
+		(property "Reference" "R9"
 			(at 175.26 104.14 90)
 			(effects
 				(font
@@ -9493,7 +8942,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R40")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9509,7 +8958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38f9b8b0-ec01-43ee-bc97-c22edc0aebc8")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR02"
 			(at 134.62 33.02 0)
 			(effects
 				(font
@@ -9559,7 +9008,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR0101")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9634,110 +9083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
-		(at 135.89 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41a934d7-ad63-44a0-b250-146227164f42")
-		(property "Reference" "J17"
-			(at 137.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DSP_GPIO"
-			(at 137.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
-			(at 135.89 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 135.89 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "a56e868d-d315-4000-ad0c-a8b02f3de875")
-		)
-		(pin "1"
-			(uuid "e81906d8-e8d3-495e-a8b5-afd5ac472f3e")
-		)
-		(pin "7"
-			(uuid "029b8a0a-9012-473d-8337-84e28fa21892")
-		)
-		(pin "4"
-			(uuid "05f8f0e2-61ec-449f-8abb-7712dc345267")
-		)
-		(pin "5"
-			(uuid "4c2b89a8-7db1-4f78-8e75-bb6d4094e2e1")
-		)
-		(pin "9"
-			(uuid "16218382-ff24-40de-a7a7-8c527f6d74bc")
-		)
-		(pin "13"
-			(uuid "c9f9218a-4a1e-4089-9c93-88722e9ac8ad")
-		)
-		(pin "3"
-			(uuid "65971438-69aa-4ea3-9c30-96cb09eb74ae")
-		)
-		(pin "2"
-			(uuid "8e81e41e-cd04-4bc4-858f-04558e47cc53")
-		)
-		(pin "10"
-			(uuid "d364a0a3-0f5a-4290-9f23-6f8baf875c59")
-		)
-		(pin "8"
-			(uuid "a90fac2e-9d02-4f58-9fcc-d17b57cd2585")
-		)
-		(pin "14"
-			(uuid "f2d1c7de-c6a9-4ec6-9c92-9fb56bb48ed3")
-		)
-		(pin "12"
-			(uuid "d826f6e4-bb05-4b2a-8935-a9b4228aa971")
-		)
-		(pin "6"
-			(uuid "10d59aee-8bcb-4f01-9287-7134e62b9979")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DSP_AnalogDevices:ADAU1701")
 		(at 58.42 104.14 0)
 		(unit 1)
@@ -9747,7 +9092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "438fddaa-4dba-4e3b-9a91-66a6ac968c39")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 63.1033 68.58 0)
 			(effects
 				(font
@@ -9939,7 +9284,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9955,7 +9300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4395b353-2912-42a1-8ee9-86b80ca86217")
-		(property "Reference" "R34"
+		(property "Reference" "R14"
 			(at 59.69 167.6399 0)
 			(effects
 				(font
@@ -10009,7 +9354,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R34")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10025,7 +9370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43b6c33c-7a57-46d0-ad23-69230a2dfc4b")
-		(property "Reference" "R32"
+		(property "Reference" "R4"
 			(at 184.15 43.1799 0)
 			(effects
 				(font
@@ -10079,7 +9424,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R32")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10095,7 +9440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "453dca79-2ec2-4618-a153-9164eba33024")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR09"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -10145,7 +9490,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR091")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10160,7 +9505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a96f09b-03fa-4293-aca4-cd7c44270c0b")
-		(property "Reference" "TP18"
+		(property "Reference" "TP5"
 			(at 197.358 132.08 90)
 			(effects
 				(font
@@ -10211,7 +9556,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "TP18")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10227,7 +9572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e31c7ef-11cc-4616-bf29-d5eaa02561c4")
-		(property "Reference" "C38"
+		(property "Reference" "C26"
 			(at 181.61 111.7662 0)
 			(effects
 				(font
@@ -10281,74 +9626,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ef645d1-aaea-40d5-a8bf-97a71c320a7b")
-		(property "Reference" "#PWR073"
-			(at 207.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c7bcdf2-6b88-40c2-a7c3-c301e5a5ecf5")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR073")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10364,7 +9642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "628eb865-2aea-49ac-baf2-bd0f3a7aa4f6")
-		(property "Reference" "R38"
+		(property "Reference" "R2"
 			(at 161.29 33.0199 0)
 			(effects
 				(font
@@ -10418,73 +9696,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6378f190-988a-442b-9ccc-106a2b570582")
-		(property "Reference" "#PWR094"
-			(at 144.78 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16f45643-e4df-484c-bf51-ac9f9c71d58d")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR094")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10500,7 +9712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "638887bc-2e13-4e38-9a96-e1b24157d0f8")
-		(property "Reference" "R36"
+		(property "Reference" "R16"
 			(at 74.93 167.6399 0)
 			(effects
 				(font
@@ -10554,7 +9766,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R36")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10570,7 +9782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64ff26e1-698b-4640-a2f0-e90959c114b3")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR013"
 			(at 266.7 72.39 0)
 			(effects
 				(font
@@ -10620,7 +9832,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR085")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10636,7 +9848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb20c1a-6396-4219-a438-cb4c0dc5cfdb")
-		(property "Reference" "R45"
+		(property "Reference" "R7"
 			(at 269.24 73.6599 0)
 			(effects
 				(font
@@ -10690,7 +9902,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R45")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10706,7 +9918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c653c72-c360-4d65-b024-3e93b8bdc010")
-		(property "Reference" "C46"
+		(property "Reference" "C32"
 			(at 107.9436 138.43 90)
 			(effects
 				(font
@@ -10758,7 +9970,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C46")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -10774,7 +9986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dc6de34-ee02-4289-9b5d-8d3d6b9a4271")
-		(property "Reference" "C52"
+		(property "Reference" "C11"
 			(at 48.2663 40.64 90)
 			(effects
 				(font
@@ -10826,7 +10038,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C52")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10842,7 +10054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f181962-4865-4c4a-9d7a-3d62d91603a4")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR012"
 			(at 44.45 73.66 0)
 			(effects
 				(font
@@ -10892,7 +10104,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR089")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10908,7 +10120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70a6d9ed-035d-4e6b-af5e-54fb484b8d70")
-		(property "Reference" "C29"
+		(property "Reference" "C3"
 			(at 111.76 33.0135 0)
 			(effects
 				(font
@@ -10962,86 +10174,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 140.97 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "717df3c8-61e1-4b14-b47c-e8621fbd0d08")
-		(property "Reference" "J16"
-			(at 143.51 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DSP_PROG"
-			(at 143.51 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f91e4cc3-a718-4f55-87d9-8b92977edbe9")
-		)
-		(pin "4"
-			(uuid "48bcdc94-427d-426b-90de-dd7812ec5803")
-		)
-		(pin "1"
-			(uuid "1f1b0cc6-6ef2-4858-a317-d1f6aab5ff0a")
-		)
-		(pin "2"
-			(uuid "4b1d0e85-27fd-4e1e-9117-cb39e66a59e6")
-		)
-		(pin "3"
-			(uuid "4905d0e1-078d-443f-b0d1-3c4688fdeae3")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "J16")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11057,7 +10190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718cf097-d44a-4bf9-ad99-ac52db515222")
-		(property "Reference" "C23"
+		(property "Reference" "C8"
 			(at 194.31 43.1735 0)
 			(effects
 				(font
@@ -11111,7 +10244,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C23")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11127,7 +10260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a5a744-96c4-48e7-b1e9-e9f2880e833b")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR028"
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -11177,7 +10310,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR075")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11193,7 +10326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73d9c4c5-0eb5-47a1-aac8-25ba5da88625")
-		(property "Reference" "R33"
+		(property "Reference" "R5"
 			(at 204.47 43.1799 0)
 			(effects
 				(font
@@ -11247,7 +10380,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R33")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11263,7 +10396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74d85461-5703-450e-8c05-23bbeda40382")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR021"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -11313,7 +10446,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR079")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11329,7 +10462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76f5c3bf-4fb4-400a-8666-c718a9b0e458")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR01"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -11379,7 +10512,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR088")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11395,7 +10528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2d889b-eca5-458e-872e-e84c4a80b4b5")
-		(property "Reference" "C28"
+		(property "Reference" "C2"
 			(at 100.33 33.0135 0)
 			(effects
 				(font
@@ -11449,7 +10582,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C28")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11465,7 +10598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ceec21f-4f60-45d0-8d8a-c3f7cfa8e9ea")
-		(property "Reference" "C50"
+		(property "Reference" "C18"
 			(at 48.2663 60.96 90)
 			(effects
 				(font
@@ -11517,7 +10650,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C50")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11533,7 +10666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e506881-d2e9-4fc8-a7dd-a4e6b5bcf314")
-		(property "Reference" "C24"
+		(property "Reference" "C9"
 			(at 214.63 43.1735 0)
 			(effects
 				(font
@@ -11587,7 +10720,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C24")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11603,7 +10736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8060296d-8d3c-426a-aa9f-870854d79997")
-		(property "Reference" "C31"
+		(property "Reference" "C14"
 			(at 111.76 50.7935 0)
 			(effects
 				(font
@@ -11657,7 +10790,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C31")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11673,7 +10806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80cad113-bb78-4cf5-9365-ef91ef993e33")
-		(property "Reference" "C49"
+		(property "Reference" "C23"
 			(at 247.65 73.6662 0)
 			(effects
 				(font
@@ -11727,7 +10860,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C49")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11743,7 +10876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "881a8b1e-89c8-4263-b6fe-f1949e94d492")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR025"
 			(at 101.6 124.46 0)
 			(effects
 				(font
@@ -11793,7 +10926,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR0100")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11808,7 +10941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a63fe0b-697b-4915-bac7-e0cce8e38b01")
-		(property "Reference" "R42"
+		(property "Reference" "R10"
 			(at 236.22 104.14 90)
 			(effects
 				(font
@@ -11860,7 +10993,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R42")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11876,7 +11009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a739eaa-0af3-4b95-ba1a-c8a26868cc62")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR023"
 			(at 179.07 123.19 0)
 			(effects
 				(font
@@ -11926,7 +11059,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR074")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11942,7 +11075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92136034-162b-4313-b698-39cb4671956c")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR035"
 			(at 64.77 168.91 0)
 			(effects
 				(font
@@ -11992,7 +11125,225 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR098")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x15")
+		(at 128.27 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9517884f-4901-4f88-a96a-efaee6204daa")
+		(property "Reference" "J5"
+			(at 130.81 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IO2"
+			(at 130.81 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 128.27 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "90e4d1ac-9080-4a45-a8fd-e644540b09e8")
+		)
+		(pin "7"
+			(uuid "72ba6ca2-9e6b-427e-985a-d727fc0aed5e")
+		)
+		(pin "12"
+			(uuid "ae796d7b-fa15-4b90-809d-992f4c8249fa")
+		)
+		(pin "13"
+			(uuid "6c5c74d9-2160-4268-8a42-97b568546613")
+		)
+		(pin "14"
+			(uuid "f12023de-9fc1-4116-ba5c-efec3d3b7022")
+		)
+		(pin "15"
+			(uuid "992dcfef-d1d5-4895-b6d1-468e4218a452")
+		)
+		(pin "5"
+			(uuid "63f6ab12-0a51-47c1-8dc6-7a4ecfd60e6c")
+		)
+		(pin "3"
+			(uuid "32dfbc53-6d0e-40db-85f9-7dcd6b2ecf32")
+		)
+		(pin "8"
+			(uuid "d1c5c984-9fe5-4055-9b4a-3beed7136270")
+		)
+		(pin "1"
+			(uuid "34618265-4466-49cf-8594-04106e4a49eb")
+		)
+		(pin "2"
+			(uuid "66fba6d9-609a-45e7-a4cb-1ca8b5a2df34")
+		)
+		(pin "4"
+			(uuid "5ec78bd4-ffa8-4496-aeb2-5c356f8ad0a2")
+		)
+		(pin "9"
+			(uuid "fa98225f-0922-41a6-915b-fbf4bd4be95c")
+		)
+		(pin "10"
+			(uuid "9dd8f4af-238d-4fbf-a448-4795bac01414")
+		)
+		(pin "11"
+			(uuid "0611ccb8-19bc-4c20-b719-df74c54ebed6")
+		)
+		(instances
+			(project "ADAU1701-DSP"
+				(path "/484c4955-80b8-457c-864e-1c65a3218727"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x15")
+		(at 128.27 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951f8c18-e197-462a-b5f6-44b44c78ff35")
+		(property "Reference" "J4"
+			(at 130.81 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IO1"
+			(at 130.81 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 128.27 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d793a04f-01ec-4c23-8109-c371aafff6b9")
+		)
+		(pin "7"
+			(uuid "88cdb4ab-552d-41d4-bebb-0e7b4abd0f42")
+		)
+		(pin "12"
+			(uuid "e3b7e545-dd4e-4454-acb2-38c71ca5bad4")
+		)
+		(pin "13"
+			(uuid "68657b93-b6ed-46de-b153-ccaf610c7c72")
+		)
+		(pin "14"
+			(uuid "fcc661e4-7419-46e6-b53d-55045923ba69")
+		)
+		(pin "15"
+			(uuid "44398ac0-f27e-4de0-b1bc-37dc4c5f744c")
+		)
+		(pin "5"
+			(uuid "e481e45e-63fc-44f3-83f6-11bde4f9497b")
+		)
+		(pin "3"
+			(uuid "dde91460-932e-4298-a391-e37f029cce0a")
+		)
+		(pin "8"
+			(uuid "7703056d-9957-43b0-9802-87bdcf7e7d21")
+		)
+		(pin "1"
+			(uuid "cf3b89d9-5f87-442e-aa3d-6aeab5aa6b24")
+		)
+		(pin "2"
+			(uuid "dea57f6a-bc04-4d4e-808e-257bac5c75b0")
+		)
+		(pin "4"
+			(uuid "f11cfc07-b648-4e66-bbef-facb20c084d1")
+		)
+		(pin "9"
+			(uuid "2ddb349c-e208-4d7a-873b-6b6cfc9b2d1d")
+		)
+		(pin "10"
+			(uuid "d8467e81-8b93-47da-a965-24063233dadb")
+		)
+		(pin "11"
+			(uuid "445a337f-09b5-412d-9408-0518ba60d6da")
+		)
+		(instances
+			(project ""
+				(path "/484c4955-80b8-457c-864e-1c65a3218727"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12008,7 +11359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ea6479-021a-48a0-a883-8725bff7c560")
-		(property "Reference" "C47"
+		(property "Reference" "C21"
 			(at 224.79 73.6662 0)
 			(effects
 				(font
@@ -12062,7 +11413,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C47")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -12078,7 +11429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98300d17-6871-4569-813d-3e82d5346498")
-		(property "Reference" "J15"
+		(property "Reference" "J3"
 			(at 106.68 96.5199 0)
 			(effects
 				(font
@@ -12135,73 +11486,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "985d145d-da5b-4fda-90b5-c569ad5e7108")
-		(property "Reference" "#PWR092"
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c11af2e7-05bf-4c74-9e0f-b56c46fda2fd")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR092")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12217,7 +11502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b601a9a-b0a3-44c6-977e-578a788ab70d")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR031"
 			(at 113.03 152.4 0)
 			(effects
 				(font
@@ -12267,7 +11552,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR081")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12283,7 +11568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dd94f61-f202-4f16-8dc3-886b276d6b4a")
-		(property "Reference" "TP15"
+		(property "Reference" "TP2"
 			(at 201.422 72.39 90)
 			(effects
 				(font
@@ -12334,7 +11619,73 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "TP15")
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f2fb217-ca7d-4391-9581-a3e5fbe8e9c4")
+		(property "Reference" "#PWR040"
+			(at 113.03 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc94e71-53d1-481d-b0f5-8775f3a03650")
+		)
+		(instances
+			(project "ADAU1701-DSP"
+				(path "/484c4955-80b8-457c-864e-1c65a3218727"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12349,7 +11700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a24d534b-88b9-43fd-8c58-7627a18e6388")
-		(property "Reference" "TP17"
+		(property "Reference" "TP3"
 			(at 197.358 102.87 90)
 			(effects
 				(font
@@ -12400,7 +11751,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "TP17")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12416,7 +11767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a38415fd-5e5a-4da6-872d-8f7bb63101f5")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR037"
 			(at 22.86 185.42 0)
 			(effects
 				(font
@@ -12466,7 +11817,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR058")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12482,7 +11833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a880344e-80c2-4323-a9c0-27c887c274cb")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR016"
 			(at 97.79 81.28 0)
 			(effects
 				(font
@@ -12532,148 +11883,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab649c55-0731-43e2-85ad-5b449d88b5cf")
-		(property "Reference" "#PWR078"
-			(at 267.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a911ca7e-0cd1-460c-b552-ce1e2812fbc6")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground")
-		(at 267.97 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abe969b4-b9e1-4ae6-bef6-2d100ed28fee")
-		(property "Reference" "J14"
-			(at 273.05 116.2049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OUT2"
-			(at 273.05 118.7449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "XKB_PJ-3200:XKB_PJ-3200"
-			(at 267.97 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-			(at 267.97 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "G"
-			(uuid "d7803bcf-1045-4a06-aa4a-df278f9b5113")
-		)
-		(pin "S"
-			(uuid "7cbd2916-188a-4ae8-aa63-99963bc53d65")
-		)
-		(pin "T"
-			(uuid "bde16e66-2a7a-4ce1-b1a3-c0ddd8234fb7")
-		)
-		(instances
-			(project "ADAU1701-DSP"
-				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "J14")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12689,7 +11899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adcbb6ae-b701-4c3e-afa3-22e45f1b5069")
-		(property "Reference" "C51"
+		(property "Reference" "C16"
 			(at 48.2663 50.8 90)
 			(effects
 				(font
@@ -12741,7 +11951,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C51")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12756,7 +11966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adf8a801-a356-438b-90d7-9434975f5b1d")
-		(property "Reference" "R39"
+		(property "Reference" "R6"
 			(at 140.97 53.34 90)
 			(effects
 				(font
@@ -12808,7 +12018,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R39")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12824,7 +12034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0538248-5331-44dc-b684-100966b2d9bb")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR038"
 			(at 34.29 190.5 0)
 			(effects
 				(font
@@ -12874,7 +12084,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR065")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12890,7 +12100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b269f98a-e7bc-4ca4-aede-c0752b425cd1")
-		(property "Reference" "C34"
+		(property "Reference" "C4"
 			(at 137.16 33.0135 0)
 			(effects
 				(font
@@ -12944,7 +12154,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C34")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12960,7 +12170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2bc30ba-43b7-4e2a-a958-3899c1ddaae7")
-		(property "Reference" "C53"
+		(property "Reference" "C5"
 			(at 48.2663 30.48 90)
 			(effects
 				(font
@@ -13012,7 +12222,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C53")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13028,7 +12238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2e04213-e367-4aa8-90bf-2340392a83f9")
-		(property "Reference" "C54"
+		(property "Reference" "C10"
 			(at 62.2363 39.37 90)
 			(effects
 				(font
@@ -13080,7 +12290,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C54")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13096,7 +12306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3fe398e-b721-40de-999e-971f843f97e7")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR015"
 			(at 189.23 80.01 0)
 			(effects
 				(font
@@ -13146,7 +12356,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR060")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13162,7 +12372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b544259c-93c1-4844-b603-e64a161a277c")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR022"
 			(at 24.13 111.76 0)
 			(effects
 				(font
@@ -13212,7 +12422,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR087")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13228,7 +12438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6bb99b0-c4d6-4740-9faf-0b158364a6af")
-		(property "Reference" "R37"
+		(property "Reference" "R8"
 			(at 27.94 78.74 90)
 			(effects
 				(font
@@ -13280,7 +12490,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R37")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13295,7 +12505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6d16e18-5a11-424d-82fb-8ef16df211fc")
-		(property "Reference" "C27"
+		(property "Reference" "C33"
 			(at 29.2036 156.21 90)
 			(effects
 				(font
@@ -13347,7 +12557,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C27")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -13363,7 +12573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7eacbd5-9d35-4734-a06c-cf1d0fdceb4e")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR017"
 			(at 222.25 86.36 0)
 			(effects
 				(font
@@ -13413,7 +12623,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR083")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13429,7 +12639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6de052-b8e1-42a1-bc80-eb3c8b8dd4e1")
-		(property "Reference" "C35"
+		(property "Reference" "C6"
 			(at 147.3136 31.75 90)
 			(effects
 				(font
@@ -13481,7 +12691,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C35")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13496,7 +12706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcd70da7-4a9d-4b42-a83b-c2fa52740e9c")
-		(property "Reference" "C42"
+		(property "Reference" "C25"
 			(at 229.8636 102.87 90)
 			(effects
 				(font
@@ -13548,7 +12758,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C42")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -13564,7 +12774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e82462-29d5-4204-bf03-ef92adf92bbf")
-		(property "Reference" "R35"
+		(property "Reference" "R15"
 			(at 67.31 167.6399 0)
 			(effects
 				(font
@@ -13618,7 +12828,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R35")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13634,7 +12844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2944b74-5fbb-4c26-a099-6c1b82908f57")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR032"
 			(at 34.29 162.56 0)
 			(effects
 				(font
@@ -13684,7 +12894,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR096")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13700,7 +12910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6369a2e-cc76-41cf-ae84-c7a0636ce897")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR033"
 			(at 22.86 170.18 0)
 			(effects
 				(font
@@ -13750,7 +12960,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR059")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13766,7 +12976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c72a1874-5674-42de-957c-09407bfb8e3f")
-		(property "Reference" "C55"
+		(property "Reference" "C15"
 			(at 62.2363 49.53 90)
 			(effects
 				(font
@@ -13818,7 +13028,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C55")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13833,7 +13043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9821ef9-4cd2-4aa6-af76-631e17e4bce2")
-		(property "Reference" "C43"
+		(property "Reference" "C29"
 			(at 229.8636 121.92 90)
 			(effects
 				(font
@@ -13885,7 +13095,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C43")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -13901,7 +13111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c992f525-c81a-447c-be62-2f6736081016")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR024"
 			(at 240.03 123.19 0)
 			(effects
 				(font
@@ -13951,7 +13161,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR076")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13966,7 +13176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca676fe7-488d-4af0-88f8-83d6e3dd41a1")
-		(property "Reference" "TP19"
+		(property "Reference" "TP4"
 			(at 258.318 102.87 90)
 			(effects
 				(font
@@ -14017,7 +13227,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "TP19")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14032,7 +13242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf2a6501-213d-435e-85a0-d82eb1c4f38f")
-		(property "Reference" "C26"
+		(property "Reference" "C1"
 			(at 224.7836 24.13 90)
 			(effects
 				(font
@@ -14084,7 +13294,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C26")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -14099,7 +13309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d23da8c6-9d89-463a-924d-a0108c2407d3")
-		(property "Reference" "J12"
+		(property "Reference" "J2"
 			(at 186.69 62.738 90)
 			(effects
 				(font
@@ -14152,7 +13362,73 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "J12")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 121.92 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d701a275-3bf9-417c-8595-9b132ad21566")
+		(property "Reference" "#PWR039"
+			(at 121.92 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 121.92 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 121.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f5349f1-6dff-4d3e-b1a7-3a51e6964c08")
+		)
+		(instances
+			(project "ADAU1701-DSP"
+				(path "/484c4955-80b8-457c-864e-1c65a3218727"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14168,7 +13444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7fb1171-ed68-46e8-8f9b-b43da94f4316")
-		(property "Reference" "R31"
+		(property "Reference" "R1"
 			(at 231.14 25.4 90)
 			(effects
 				(font
@@ -14220,7 +13496,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R31")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14236,7 +13512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d942dd9b-4390-43db-b8ee-0693d9946fdd")
-		(property "Reference" "R30"
+		(property "Reference" "R3"
 			(at 231.14 35.56 90)
 			(effects
 				(font
@@ -14288,7 +13564,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R30")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14304,7 +13580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2e2aab-70e5-415e-9535-dbb1f89d9a84")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 259.08 64.77 90)
 			(effects
 				(font
@@ -14362,7 +13638,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -14378,7 +13654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dde9eebe-6d1c-4a3a-8e7b-65215bc021b4")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR011"
 			(at 146.05 72.39 0)
 			(effects
 				(font
@@ -14428,7 +13704,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR072")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14444,7 +13720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de850027-5f73-4fe1-9fe6-ded879123993")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR07"
 			(at 181.61 55.88 0)
 			(effects
 				(font
@@ -14494,7 +13770,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR056")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -14509,7 +13785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df1981d7-96c9-444b-8384-acd5dc380d31")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR030"
 			(at 57.15 146.05 0)
 			(effects
 				(font
@@ -14559,7 +13835,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR095")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14575,7 +13851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e38dde42-a980-4a07-9451-54b14d795086")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 36.4333 165.1 0)
 			(effects
 				(font
@@ -14647,7 +13923,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14662,7 +13938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4d55f67-8b56-4934-9d70-211aded2e31a")
-		(property "Reference" "C40"
+		(property "Reference" "C28"
 			(at 168.9036 121.92 90)
 			(effects
 				(font
@@ -14714,7 +13990,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C40")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -14730,7 +14006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e507511b-a1ed-4ee0-9cc0-61f7b57786d5")
-		(property "Reference" "C30"
+		(property "Reference" "C13"
 			(at 100.33 50.7935 0)
 			(effects
 				(font
@@ -14784,7 +14060,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C30")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14800,7 +14076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5fdc2ab-2884-4c4e-b742-cfae893588e0")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR034"
 			(at 57.15 168.91 0)
 			(effects
 				(font
@@ -14850,7 +14126,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR097")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14866,7 +14142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae6d7fa-0b9f-43a1-8fee-a46eea697c51")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR010"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -14916,7 +14192,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR068")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14931,7 +14207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee003095-3637-420c-a601-ae0d206d5c27")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 150.368 52.578 90)
 			(effects
 				(font
@@ -14989,7 +14265,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -15004,7 +14280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee9c8359-949f-4aab-b382-768d98e26f1b")
-		(property "Reference" "TP20"
+		(property "Reference" "TP6"
 			(at 258.318 132.08 90)
 			(effects
 				(font
@@ -15055,7 +14331,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "TP20")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15071,7 +14347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4038af9-cf7d-4655-b432-32f1941893d4")
-		(property "Reference" "C48"
+		(property "Reference" "C22"
 			(at 236.22 73.6662 0)
 			(effects
 				(font
@@ -15125,7 +14401,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C48")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -15140,7 +14416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5143c68-de5f-4596-b385-0ae612da73f7")
-		(property "Reference" "C39"
+		(property "Reference" "C24"
 			(at 168.9036 102.87 90)
 			(effects
 				(font
@@ -15192,7 +14468,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C39")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -15207,7 +14483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f675f34b-4bfb-472f-84ad-661744380783")
-		(property "Reference" "R43"
+		(property "Reference" "R13"
 			(at 236.22 123.19 90)
 			(effects
 				(font
@@ -15259,7 +14535,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "R43")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15275,7 +14551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d473b9-fcaf-4d60-b92b-df6198b0bf44")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR018"
 			(at 24.13 91.44 0)
 			(effects
 				(font
@@ -15325,7 +14601,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "#PWR066")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15341,7 +14617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3ba443-bf53-407e-908e-8687363dfe82")
-		(property "Reference" "C41"
+		(property "Reference" "C30"
 			(at 181.61 130.8162 0)
 			(effects
 				(font
@@ -15395,7 +14671,7 @@
 		(instances
 			(project "ADAU1701-DSP"
 				(path "/484c4955-80b8-457c-864e-1c65a3218727"
-					(reference "C41")
+					(reference "C30")
 					(unit 1)
 				)
 			)
